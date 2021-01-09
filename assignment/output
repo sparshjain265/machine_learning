@@ -1,0 +1,27 @@
+Training for different degrees in OLSR (1 - 4)
+Best OLSR Cross Validation in degree: 2
+OLSR Training Accuracy: 0.3463072942588259
+OLSR Cross Validation Accuracy: 0.33081555346228464
+OLSR Correlation Coefficient: 0.5758366417993327
+
+Training for different degrees in Ridge Regression (1 - 4)
+Alpha choosen from [0.0001, 0.0003, 0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1, 3, 10]
+Best Ridge Cross Validation in degree: 2 and alpha: 0.01
+Ridge Training Accuracy: 0.3393729907873443
+Ridge Cross Validation Accuracy: 0.3435428165999742
+Ridge Correlation Coefficient: 0.5866158858157178
+
+Training for different degrees in LASSO Regression (1 - 4)
+Alpha choosen from [0.0001, 0.0003, 0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1, 3, 10]
+Best LASSO Cross Validation in degree: 2 and alpha: 0.0003
+LASSO Training Accuracy: 0.3349011636239041
+LASSO Cross Validation Accuracy: 0.34229484193693077
+LASSO Correlation Coefficient: 0.5860367071408058
+
+Best model: Ridge (Based on max Cross Validation data set accuracy)
+Degree: 2
+Alpha: 0.01
+Training Accuracy: 0.3393729907873443
+Cross Validation Accuracy: 0.3435428165999742
+Correlation Coefficient (On Cross Cross Validation Data Points): 0.5866158858157178
+Correlation Coefficient of given prediction with actual value: 0.4699338551068134

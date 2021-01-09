@@ -1,0 +1,12 @@
+Name: Sparsh Jain
+Roll: 111601026
+
+For model selection, I had 3 options, OLSR, Ridge, and Lasso
+I divided the model randomly in test and cross-validation data set in 70 - 30 ratio
+Then I trained all 3 models with varying degree of parameters ranging from 1 to 4 (both inclusive)
+For Ridge and Lasso, I trained them with varying degree of alpha ranging from 0.0001 to 10
+To select the best model, I chose the one with highest cross validation accuracy
+
+eval.py trains the Ridge with degree 2 and alpha 0.01 (found best while training)
+and asks for the test data file Name
+it prints the training accuracy, test accuracy, correlation coefficient of prediction from previous model, and correlation coefficient of previous prediction
